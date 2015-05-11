@@ -1,7 +1,7 @@
 /******************* GLOBAL STYLES *******************/
 @font-face {
     font-family: helveticaneue;
-    src: url(fonts/HelveticaNeue.otf);
+    src: url(<?php bloginfo('template_directory'); ?>/fonts/HelveticaNeue.otf);
     }
 html {
 	-webkit-text-size-adjust: none;
