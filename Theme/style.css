@@ -1,0 +1,167 @@
+/******************* GLOBAL STYLES *******************/
+@font-face {
+    font-family: helveticaneue;
+    src: url(fonts/HelveticaNeue.otf);
+    }
+html {
+	-webkit-text-size-adjust: none;
+}
+body, body * {
+	margin: 0;
+	padding: 0;
+    
+	font-family: helveticaneue, helvetica, arial, sans-serif;
+	font-size: 100%; /* 16px */
+	line-height: 150%; /* 24px */
+
+}
+a img {
+   border:none;
+   
+}
+img, embed, object, video, iframe {
+	max-width: 100%;
+}
+ol, ul {
+	list-style-type: none;
+	
+}
+h1,h2,h3,h4 {
+	font-weight:bold;
+	
+}
+h1 {
+	font-size: 2.25em; /* 36px / 16px */
+}
+
+h2 {
+	font-size: 2em; /* 32px / 16px */
+}
+
+/******************* GENERAL STYLES ******************/
+
+#wrapper{
+	
+}
+
+/******************* HEADER STYLES *******************/
+
+header{
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#logo{
+    width: 100%;
+    padding: 50px 0px;
+}
+#logo img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+/******************* NAV STYLES **********************/
+
+nav{
+	overflow: hidden;
+	text-align: center;
+    background: #222;
+}
+nav ul{ /* MAIN NAV */
+	list-style-type: none;
+	display: inline-block;
+    font-size: 14pt;
+}
+nav ul li{
+	float:left;
+	display:inline-block;
+}
+nav ul li a{
+	display:block;
+	padding:5px 26px 0px 26px;
+	text-decoration:none;
+    color: #fff;
+}
+nav li a:hover {
+}
+
+/******************* BODY STYLES *********************/
+
+#middle{
+	overflow: hidden;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 10px 3%;
+}
+
+/* 2-COLUMN RIGHT SIDEBAR LAYOUT CSS */
+
+#content{
+	float:left;
+	width: 65.9574468085106%;
+}
+#right-sidebar{
+	float:right;
+	width: 29.5744680851064%;
+}
+#right-sidebar a{
+    color: black;
+}
+#sidebar-contact,#sidebar resume{
+    padding-bottom: 20px;
+}
+#minibio img{
+    float: left;
+    padding: 0px 10px 0px 0px;
+}
+#minibio a{
+    float: right;
+    color: #000;
+}
+
+/******************* FOOTER STYLES *******************/
+
+footer{
+	overflow: hidden;
+    text-align: center;
+	background: #222;
+}
+footer p{
+    padding: 20px;
+    color: #fff;
+}
+
+/******************* FOOTER NAV **********************/
+
+nav{
+	overflow: hidden;
+	
+}
+
+/******************* RESPONSIVE STYLES **********************/
+
+/* Desktop & Mobile Screens Set to 1024 x 768 or Below  */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Desktop & Mobile Screens Set to a Width of 600px or Below */
+@media screen and (max-width: 600px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
