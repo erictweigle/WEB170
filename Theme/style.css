@@ -19,7 +19,7 @@ a img {
    border:none;
    
 }
-img, embed, object, video, iframe {
+img, embed, object, video, iframe{
 	max-width: 100%;
 }
 ol, ul {
@@ -36,6 +36,9 @@ h1 {
 
 h2 {
 	font-size: 2em; /* 32px / 16px */
+}
+small {
+    font-size: smaller;
 }
 
 /******************* GENERAL STYLES ******************/
@@ -125,6 +128,21 @@ nav ul li ul{
     float: right;
     color: #000;
 }
+/******************* POST STYLES *****************/
+
+#content article.post-excerpt{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+img.wp-post-image{}
+img.attachment-thumbnail{
+    float: left;
+    margin: 4px 20px 0 0;
+}
+img.attachment-medium{}
+img.attachment-large{}
+img.attachment-full{}
 
 /******************* FOOTER STYLES *******************/
 

@@ -12,7 +12,11 @@ Version : 1.0
 register_nav_menus(array(
 'main-menu' => __( 'Main' ),
 ));
-//
 
+//Post Thumbnails
+add_theme_support( 'post-thumbnails' );
+
+//Post Excerpts
+add_post_type_support( 'page', 'excerpt' );
 
 ?>
