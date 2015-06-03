@@ -8,7 +8,7 @@
                     <?php the_content(''); ?>
                     <?php endwhile; endif; ?>
                     <!-- END THE LOOP -->
-                    <small>index.php</small>
+                    <small>page.php</small>
                     
                 </div> <!-- END CONTENT -->
                 
