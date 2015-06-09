@@ -144,6 +144,17 @@ img.attachment-medium{}
 img.attachment-large{}
 img.attachment-full{}
 
+/******************* SIDEBAR STYLES *******************/
+
+#sidebar-subnav{
+
+}
+#sidebar-quote blockquote{
+    padding-left: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
 /******************* FOOTER STYLES *******************/
 
 footer{
