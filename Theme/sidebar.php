@@ -51,6 +51,12 @@
 
                     </div>
                     <!-- END QUOTE -->
+                    
+                    <!-- BEGIN DYNAMIC SIDEBAR -->
+                    
+                    <?php dynamic_sidebar(1); ?>
+                    
+                    <!-- END DYNAMIC SIDEBAR -->
 
 
                 </div> <!-- END RIGHT SIDEBAR -->
