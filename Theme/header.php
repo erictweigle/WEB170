@@ -2,11 +2,13 @@
 <html>
 	<head>
         
-		<title><?php bloginfo('description');?> | <?php bloginfo('name'); ?></title>
+		<title><?php get_custom_title_tag(); ?></title>
+
         
         <meta charset="UTF-8" />
         <meta name="robots" content="noindex, nofollow"/>
 		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+		<meta name="description" content="<?php echo strip_tags(get_the_excerpt()); ?>" />
         
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen"/>
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css">
@@ -29,7 +31,7 @@
             
 			<header> <!-- BEGIN HEADER -->
 				<div id="logo">
-					<a href="javascript:;"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="logo"></a>
+					<a href="http://www.pootacheeta.com/wordpress/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="logo"></a>
 				</div>				
 			</header> <!-- END HEADER -->
             
